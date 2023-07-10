@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1">
+    <meta name="description" content="Agencia especializada em marketing digital, aplicativos mobile">
+    <meta name="keywords" content="Agencia Digital, Marketing, Sites">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Alezy Rita">
+    <title>Perola - Soluções digitais</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:400,300,700" rel="stylesheet">
+    <link rel="icon" href="../NODEPROP/img/icon.png">
+</head>
+<body>
+    <header class="cabecalho container">
+        <a href="index.html "><h1 class="logo">Perola - Soluções digitais</h1></a>
+        <button class="btn-menu bg-gradiente"><i class="bi bi-list"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="bi bi-x"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner container">
+        <div class="title">
+            <h2>OUSE INOVAR</h2>
+            <h3>Criamos experiências que mudam vidas. Venha fazer parte deste mundo!</h3>
+
+        </div>
+        <div class="button">
+            <button class="btn btn-cadastrar bg-white radius">Cadastrar <i class="bi bi-arrow-right-circle-fill"></i></button>
+            <button class="btn btn-sobre bg-black radius">Sobre <i class="bi bi-question-circle-fill"></i></button>
+        </div>
+    </div>
+    <main class="servicos container">
+        <article class="servico bg-white radius">
+            <a href="#"> <img src="../NODEPROP/img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+            <div class="inner">
+                <a href="#">Campanhas publicitárias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p>As campanhas publicitárias são formas de comunicação que visam promover um produto, 
+                    serviço, marca ou ideia junto a um público-alvo. Elas podem ser veiculadas em 
+                    diferentes meios, como televisão, rádio, internet, jornais, revistas, outdoors, 
+                    etc. O objetivo das campanhas publicitárias é persuadir os consumidores a adquirir 
+                    ou apoiar o que está sendo anunciado, gerando lucro ou reconhecimento para os anunciantes.
+                </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"> <img src="img/md.jpg" alt="Marketing Digital"></a>
+            <div class="inner">
+                <a href="#">Marketing Digital</a>
+                <h4>Admnistração de Redes Sociais</h4>
+                <p>Marketing digital es el conjunto de estrategias y acciones que utilizan los medios 
+                    digitales para promocionar productos o servicios, generar relaciones con los clientes 
+                    y alcanzar los objetivos de negocio. Algunas de las herramientas más utilizadas en el 
+                    marketing digital son las redes sociales, el correo electrónico, el posicionamiento 
+                    web, el contenido, la publicidad online y el análisis de datos.
+                </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"> <img src="img/cs.png" alt="Criação de SItes"></a>
+            <div class="inner">
+                <a href="#">Criação de SItes</a>
+                <h4>Sites admnistráveis</h4>
+                <p>A criação de sites é um processo que envolve o planejamento, o design, a programação e 
+                    a publicação de páginas web na internet. O objetivo da criação de sites é comunicar 
+                    uma mensagem, informar sobre um produto ou serviço, ou interagir com o público-alvo. 
+                    Existem diferentes ferramentas e plataformas que podem auxiliar na criação de sites, 
+                    como editores de código, sistemas de gerenciamento de conteúdo, frameworks e hospedagens.
+                </p>
+            </div>
+        </article>
+
+    </main>
+    <!--NEWSLETTER-->
+    <section class="newsletter container bg-black">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais</h3>
+        <form>
+            <input class="bg-black radius" type="email" name="email" placeholder="Digite seu email">
+            <button class="bg-white radius">Cadastrar</button>
+        </form>
+    </section>
+    <!--RODAPE-->
+    <footer class="rodape container bg-gradiente">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/alezy.bispo/"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/alezyrita1212"><i class="bi bi-twitter"></i></a>
+            <a href="https://perolainformatica.blogspot.com/"><i class="bi bi-google"></i></a>
+            <a href="https://www.instagram.com/alezy2018/"><i class="bi bi-instagram"></i></a>
+            <a href="alezy2018@hotmail.com"><i class="bi bi-envelope"></i></a>
+        </div>
+        <p class="copyright">© Perola Informática 2023- Todos os direitos reservados</p>
+    </footer>
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script>
+    $(".btn-menu").click(function(){
+        $(".menu").show();
+    });
+    $(".btn-close").click(function(){
+        $(".menu").hide();
+    });
+  </script>
+</body>
+</html>
